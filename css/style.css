@@ -6,10 +6,17 @@
 }
 
 :root{
- --primary-color   : blue;
- --secondary-color : #15157e;
+ --primary-color   : #15157e;
+ --secondary-color : #000;
 }
 
+/* Style for header */
 header{
+ background-color: var(--primary-color);
+}
+
+
+/* Style for main */
+main{
  background-color: var(--secondary-color);
 }
