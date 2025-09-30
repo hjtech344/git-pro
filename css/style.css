@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Cambria', sans-serif;
+}
+
+:root{
+ --primary-color   : #15157e;
+ --secondary-color : #000;
+}
+
+/* Style for header */
+header{
+ background-color: var(--primary-color);
+}
+
+
+/* Style for main */
+main{
+ background-color: var(--secondary-color);
+}
