@@ -105,12 +105,17 @@ header .mobile{
   display: none;
   justify-content: center;
   align-items: center;
-  transform: translateX(0%);
+  transform: translateX(50%, 100%);
+  transition-duration: 1s;
   transition: all .3s ease-in-out;
 }
 
 header .mobile.active{
   display: flex;
+}
+
+header .mobile.disabled{
+  display: none;
 }
 
 header .mobile .menu-close{
